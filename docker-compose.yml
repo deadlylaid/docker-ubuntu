@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+    practice:
+        build: .
+        image: ubuntu:prac
+        container_name: practice
+        # detached mode
+        tty: true
