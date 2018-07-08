@@ -7,3 +7,5 @@ services:
         container_name: practice
         # detached mode
         tty: true
+        volumes:
+            - ./:/home
